@@ -77,19 +77,22 @@ Built using the MERN Stack and Google Gemini AI.
 
 ### Landing Page
 
-(Add Screenshot)
+<img width="1837" height="965" alt="image" src="https://github.com/user-attachments/assets/451d2ffd-d1ce-4cf4-a7ea-6f45bae7b26c" />
+
 
 ---
 
 ### Dashboard
 
-(Add Screenshot)
+<img width="1860" height="963" alt="image" src="https://github.com/user-attachments/assets/ce873d08-5f00-4757-b65c-c8d8165dec41" />
+
 
 ---
 
 ### Interview Report
 
-(Add Screenshot)
+<img width="1901" height="967" alt="image" src="https://github.com/user-attachments/assets/dc9b28b3-fcf4-4569-80fe-d70ae7b17fa3" />
+
 
 ---
 
@@ -202,7 +205,9 @@ GitHub:
 https://github.com/AyushRajput1012
 
 LinkedIn:
-(Add LinkedIn Profile)
+www.linkedin.com/in/ayushrajput2060
+
+
 
 ---
 
