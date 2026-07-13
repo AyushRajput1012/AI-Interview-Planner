@@ -1,0 +1,17 @@
+# Backend
+Backend_GEN-AI/node_modules
+Backend_GEN-AI/.env
+
+# Frontend
+FrontEnd-GEN-AI/node_modules
+FrontEnd-GEN-AI/dist
+
+# Logs
+*.log
+
+# VS Code
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
