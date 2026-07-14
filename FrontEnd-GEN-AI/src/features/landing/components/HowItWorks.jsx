@@ -27,7 +27,7 @@ const HowItWorks = () => {
 
       <div className="how-left">
 
-        <h2>How InterviewAI Works</h2>
+        <h2>How HireForge AI Works</h2>
 
         {steps.map((step) => (
           <div className="step" key={step.number}>

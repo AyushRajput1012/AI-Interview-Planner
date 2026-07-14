@@ -172,7 +172,7 @@ const Interview = () => {
           </button>
 
           <div>
-            <h2>InterviewAI</h2>
+            <h2>HireForge AI</h2>
             <small>{report.aiResponse.title}</small>
           </div>
 
@@ -185,7 +185,7 @@ const Interview = () => {
             onClick={() => navigate("/dashboard")}
           >
 
-            <Home size={18} />
+            <Home size={18} strokeWidth={2.2} />
 
             <span>Home</span>
 
@@ -196,7 +196,7 @@ const Interview = () => {
             onClick={logoutUser}
           >
 
-            <LogOut size={18} />
+            <LogOut size={18} strokeWidth={2.2} />
 
             <span>Logout</span>
 

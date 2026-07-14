@@ -636,3 +636,215 @@
     transform:translateY(-3px);
 
 }
+
+/* ==========================================
+            RESPONSIVE DESIGN
+========================================== */
+
+@media (max-width: 1024px) {
+
+  .landing-navbar{
+    padding: 0 30px;
+  }
+
+  .hero-title{
+    font-size:52px;
+  }
+
+  .features-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .how-section{
+    grid-template-columns:1fr;
+    gap:60px;
+  }
+
+  .how-left{
+    order:2;
+  }
+
+  .how-right{
+    order:1;
+  }
+
+}
+
+@media (max-width:768px){
+
+  /* ---------- Navbar ---------- */
+
+  .landing-navbar{
+    height:auto;
+    padding:18px 20px;
+    flex-wrap:wrap;
+    gap:15px;
+  }
+
+  .logo{
+    font-size:1.7rem;
+  }
+
+  .nav-links{
+    width:100%;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+
+  .nav-buttons{
+    width:100%;
+    justify-content:center;
+  }
+
+  .login-btn,
+  .register-btn{
+    padding:10px 20px;
+    font-size:14px;
+  }
+
+  /* ---------- Hero ---------- */
+
+  .hero-section{
+    padding-top:180px;
+    padding-inline:20px;
+  }
+
+  .hero-title{
+    font-size:42px;
+    line-height:1.2;
+  }
+
+  .hero-description{
+    font-size:17px;
+    line-height:1.7;
+  }
+
+  .hero-btn{
+    width:100%;
+    max-width:320px;
+    font-size:18px;
+    padding:16px;
+  }
+
+  /* ---------- Dashboard ---------- */
+
+  .dashboard-preview{
+    margin-top:60px;
+    padding:0 20px;
+  }
+
+  .dashboard-container{
+    width:100%;
+  }
+
+  /* ---------- Features ---------- */
+
+  .features-section{
+    margin:80px auto;
+    padding:0 20px;
+  }
+
+  .features-section h2{
+    font-size:42px;
+  }
+
+  .features-grid{
+    grid-template-columns:1fr;
+  }
+
+  .feature-card{
+    padding:28px;
+  }
+
+  /* ---------- How ---------- */
+
+  .how-section{
+    width:100%;
+    padding:0 20px;
+    grid-template-columns:1fr;
+    gap:50px;
+  }
+
+  .how-left h2{
+    font-size:42px;
+  }
+
+  .step{
+    gap:18px;
+  }
+
+  .step-number{
+    width:45px;
+    height:45px;
+    min-width:45px;
+  }
+
+  .step h3{
+    font-size:22px;
+  }
+
+  /* ---------- CTA ---------- */
+
+  .cta-section{
+    padding:0 20px;
+  }
+
+  .cta-container{
+    padding:45px 25px;
+  }
+
+  .cta-container h2{
+    font-size:40px;
+  }
+
+  .cta-btn{
+    width:100%;
+    max-width:280px;
+    padding:16px;
+  }
+
+  /* ---------- Footer ---------- */
+
+  .landing-footer{
+    padding:40px 20px;
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .footer-center{
+    justify-content:center;
+  }
+
+  .footer-right{
+    justify-content:center;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .hero-title{
+    font-size:34px;
+  }
+
+  .features-section h2,
+  .how-left h2,
+  .cta-container h2{
+    font-size:32px;
+  }
+
+  .hero-description,
+  .cta-container p{
+    font-size:15px;
+  }
+
+  .feature-card h3{
+    font-size:24px;
+  }
+
+  .feature-card{
+    padding:24px;
+  }
+
+}

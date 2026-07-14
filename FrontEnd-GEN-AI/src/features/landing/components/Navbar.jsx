@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="landing-navbar">
 
             <div className="logo">
-                InterviewAI
+                HireForge AI
             </div>
 
             <ul className="nav-links">
